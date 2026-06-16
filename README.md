@@ -11,6 +11,7 @@ Live at → [multi-docs.streamlit.app](https://multi-docs.streamlit.app/)
 Upload one or more PDFs, pick your LLM provider, and chat with your documents. DocMind chunks and embeds your files locally, builds a vector store, and routes your questions through a RAG chain backed by either Groq or Gemini.
 
 ---
+<img width="1302" height="643" alt="image" src="https://github.com/user-attachments/assets/66d5de75-c357-499e-8e61-283d5c285939" />
 
 ## Stack
 
