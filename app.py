@@ -240,6 +240,11 @@ with col1:
 with col2:
     send = st.button("Send", disabled=not st.session_state.pipeline_ready)
 
+st.markdown(
+    "<p style='text-align:center;font-size:13px;margin-top:2rem;letter-spacing:0.04em;color:#555;'>built by <span style='color:#8b8ff5;font-weight:600;'>Amirtha Ganesh R.</span></p>",
+    unsafe_allow_html=True,
+)
+
 if send and question.strip():
     st.session_state.messages.append({"role": "user", "content": question})
     with st.spinner("Thinking…"):
