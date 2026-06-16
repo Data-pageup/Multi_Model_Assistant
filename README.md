@@ -80,7 +80,7 @@ docmind/
 - **Groq** → [console.groq.com](https://console.groq.com)
 - **Gemini** → [aistudio.google.com](https://aistudio.google.com)
 
-Keys are never stored — entered per session in the UI.
+Ypur API Keys are never stored — entered per session in the UI.
 
 ---
 
